@@ -6,7 +6,7 @@ import AboutTheAuthor from "./AboutTheAuthor";
 import Footer from "./Footer";
 export default function Home(){
     return (
-        <div className=''>
+        <div className=' overflow-x-clip'>
             <NavBar />
             <AboutTheBook/>
             <TableSection/>

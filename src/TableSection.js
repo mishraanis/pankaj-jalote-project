@@ -17,12 +17,12 @@ export default function TableSection() {
         {/*    create a simple table*/}
             <h1 className='text-3xl font-bold font-sans text-center py-5'>Table of Contents</h1>
             <div className='w-full flex justify-center items-center'>
-                <table className='w-10/12 3xl:w-1/2 border-2 border-black'>
+                <table className='w-10/12 3xl:w-[55%] border-2 border-black'>
                     <thead>
                         <tr className='text-2xl'>
                             <th className='border-2 border-black'>Chapters</th>
                             <th className='border-2 border-black w-2/12 '>Pages</th>
-                            <th className='border-2 border-black px-4 w-3/12' >Download Link</th>
+                            <th className='border-2 border-black px-0 md:px-4 w-1/12 md:w-3/12' >Download Link</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -37,7 +37,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>1-39</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter1} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter1} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 2<br/>
@@ -50,7 +50,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>40-81</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter2} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter2} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 3<br/>
@@ -62,7 +62,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>82-126</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter3} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter3} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 4<br/>
@@ -74,7 +74,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>127-156</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter4} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter4} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 5<br/>
@@ -86,7 +86,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>157-185</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter5} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter5} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 6<br/>
@@ -98,7 +98,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>186-228</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter6} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter6} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 7<br/>
@@ -111,7 +111,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>229-279</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter7} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter7} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 8<br/>
@@ -124,7 +124,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>280-322</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter8} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter8} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 9<br/>
@@ -138,7 +138,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>323-361</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter9} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter9} target='_blank'>Download</a></td>
                         </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter 10<br/>
@@ -149,7 +149,7 @@ export default function TableSection() {
                                 </div>
                             </td>
                             <td className='border-2 border-black px-4 text-center text-lg'>362-406</td>
-                            <td className='border-2 border-black px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter10} target='_blank'>Download</a></td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter10} target='_blank'>Download</a></td>
                         </tr>
                     </tbody>
                 </table>

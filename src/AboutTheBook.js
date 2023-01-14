@@ -2,13 +2,13 @@ import frontPage from "./images_and_pdfs/BookFront.jpg";
 
 export default function AboutTheBook() {
     return (
-        <div id="about-the-book" className='flex pt-14 3xl:pt-10'>
-            <div className='w-5/12 pl-10 3xl:pl-20 flex items-center'>
-                <img src={frontPage} className='w-[87%]' alt='book-front-cover'/>
+        <div id="about-the-book" className='flex w-full pt-52 lg:pt-14 3xl:pt-10'>
+            <div className='w-[50%] md:w-5/12 flex items-center ml-10 lg:ml-20'>
+                <img src={frontPage} className=' w-[100%] md:w-[87%]' alt='book-front-cover'/>
             </div>
             <div className='w-7/12 flex justify-center flex-col items-center'>
                 <h1 className=' text-2xl 3xl:text-4xl font-bold w-full text-center pb-2'>About the Book</h1>
-                <div className='text-md 3xl:text-lg px-10 3xl:px-24'>
+                <div className=' text-base xl:text-lg px-5 pr-10 md:px-10 3xl:px-24'>
                     <p>
                         With the emergence of global university rankings, there is increased interest in research universities.
                         The focus of the higher education system in India has traditionally been on educating students and not on research.
