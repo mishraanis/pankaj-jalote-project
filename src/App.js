@@ -3,6 +3,8 @@ import './App.css';
 import { PDFDocument } from "pdf-lib";
 import {useState} from "react";
 import {saveAs} from 'file-saver';
+import { Routes, BrowserRouter, Route } from "react-router-dom";
+import Home from "./Home";
 function App() {
     const [pdfFileData, setPdfFileData] = useState();
     var baseOffsetPages=32;
@@ -52,14 +54,13 @@ function App() {
 
   return (
     <>
-        <h1>Hello World</h1>
-        <input type="file" id="file-selector" accept=".pdf" onChange={onFileSelected} />
-        <iframe
-            style={{display: "block", width: "100vw", height: "90vh"}}
-            title="PdfFrame"
-            src={pdfFileData}
-            type="application/pdf"
-        ></iframe>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/">
+                    <Route index element={<Home />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
     </>
   );
 }
