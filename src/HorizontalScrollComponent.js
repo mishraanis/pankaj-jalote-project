@@ -8,7 +8,7 @@ export default function HorizontalScrollComponent(){
 
 
     return(
-        <div className="bg-white w-[100%] h-[50vmin]">
+        <div className="bg-white w-[100%] ">
             <ul className="hs no-scrollbar  ">
                 <li className="item text-base font-sans font-normal bg-[#65439a] text-white">A nation is as strong as its higher educational and research institutions.
 Professor Jalote has created one such institution and nurtured

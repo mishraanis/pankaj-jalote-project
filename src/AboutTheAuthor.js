@@ -1,7 +1,7 @@
 import authorImage from './images_and_pdfs/PankajJalote.jpg';
 export default function AboutTheAuthor() {
     return(
-        <div className='w-full flex flex-col justify-center items-center pt-60 pb-20 md:py-10 xl:py-28'>
+        <div className='w-full flex flex-col justify-center items-center py-20'>
             <h1 className='font-sans font-bold text-center text-3xl py-3 md:pt-5 md:pb-2'>About the Author</h1>
             <div className='w-full flex justify-evenly 3xl:w-10/12 items-center font-sans font-semibold'>
                 <div className='w-9/12 md:w-7/12 text-base md:text-lg 3xl:text-xl'>
