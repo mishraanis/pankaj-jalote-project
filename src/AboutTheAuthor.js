@@ -1,15 +1,18 @@
 import authorImage from './images_and_pdfs/PankajJalote.jpg';
 export default function AboutTheAuthor() {
     return(
-        <div className='w-full flex flex-col justify-center items-center py-40'>
-            <h1 className='font-sans font-bold text-center text-3xl py-5'>About the Author</h1>
+        <div className='w-full flex flex-col justify-center items-center py-20 md:py-40'>
+            <h1 className='font-sans font-bold text-center text-3xl py-3 md:py-5'>About the Author</h1>
             <div className='w-full flex justify-evenly 3xl:w-10/12 items-center font-sans font-semibold'>
-                <div className='w-[20%] flex justify-center items-center '>
-                    <img src={authorImage} className='w-full rounded-full shadow-lg max-w-full h-auto align-middle border-none' alt='author'/>
-                </div>
-                <div className='w-5/12 text-lg 3xl:text-xl '>
-                    <span className='text-2xl text-violet-800'>Pankaj Jalote</span> is the Founding Director (2008-2018) and Distinguished Professor of Indraprastha Institute
-                    of Information Technology Delhi (IIIT-Delhi).
+                <div className='w-9/12 md:w-7/12 text-base md:text-lg 3xl:text-xl'>
+                    <span className='text-2xl text-violet-800'>Pankaj Jalote</span> was the founding Director of IIIT-Delhi (from 2008 to 2018),
+                    which is now a highly-respected institution globally with high quality research and education, and has been ranked in BRICS
+                    top 200 universities. Prior to this, he has been a Chair Professor at IIT Delhi, Professor and head of CS Department,
+                    IIT Kanpur, and Assistant Professor at University of Maryland at college Park. He was also Vice President at Infosys for
+                    two years, and Visiting Researcher at Microsoft, Redmond, for a year. He has a B.Tech. from IIT Kanpur, MS from Pennsylvania
+                    State University, and Ph.D. from University of Illinois at Urbana-Champaign. He is the author of five books including the
+                    highly acclaimed CMM in Practice, which has been translated in Chinese, Japanese, Korean etc, and the best selling text on
+                    Software Engineering. He is a Fellow of the IEEE and INAE.
                 </div>
             </div>
         </div>

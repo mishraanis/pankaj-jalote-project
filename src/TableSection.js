@@ -8,23 +8,38 @@ import chapter7 from './images_and_pdfs/Chapter-7.pdf';
 import chapter8 from './images_and_pdfs/Chapter-8.pdf';
 import chapter9 from './images_and_pdfs/Chapter-9.pdf';
 import chapter10 from './images_and_pdfs/Chapter-10.pdf';
-
-
-
+import preface from './images_and_pdfs/Preface.pdf';
+import foreword from './images_and_pdfs/Foreword.pdf';
 export default function TableSection() {
     return(
-        <div className='py-16 md:py-40 3xl:py-44 flex justify-center flex-col'>
+        <div className='py-16 md:py-30 3xl:py-44 flex justify-center flex-col'>
         {/*    create a simple table*/}
             <h1 className='text-3xl font-bold font-sans text-center py-5'>Table of Contents</h1>
             <div className='w-full flex justify-center items-center md:hidden'>
                 <table className='w-10/12 3xl:w-[55%] border-2 border-black'>
                     <thead>
                         <tr className='text-2xl'>
-                            <th className='border-2 border-black'>Chapters</th>
+                            <th className='border-2 border-black'>Contents</th>
                             <th className='border-2 border-black w-2/12'>Pages</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td className='border-2 border-black px-4 text-xl py-2.5'>
+                                <a className='text-blue-700 text-lg active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={preface} target='_blank' rel='noreferrer'>
+                                    Preface
+                                </a>
+                            </td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center text-lg'>ix-xiii</td>
+                        </tr>
+                        <tr>
+                            <td className='border-2 border-black px-4 text-xl py-2.5'>
+                                <a className='text-blue-700 text-lg active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={foreword} target='_blank' rel='noreferrer'>
+                                    Foreword
+                                </a>
+                            </td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center text-lg'>xv-xix</td>
+                        </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'><a className='text-blue-700 text-lg active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={chapter1} target='_blank' rel='noreferrer'>Chapter-1</a><br/>
                                 Higher Education and Research in India<br/>
@@ -144,15 +159,29 @@ export default function TableSection() {
                 </table>
             </div>
             <div className='w-full justify-center items-center hidden md:flex '>
-                <table className='w-8/12 3xl:w-[55%] border-2 border-black'>
+                <table className='w-8/12 3xl:w-[45%] border-2 border-black'>
                     <thead>
                         <tr className='text-2xl'>
-                            <th className='border-2 border-black'>Chapters</th>
+                            <th className='border-2 border-black'>Contents</th>
                             <th className='border-2 border-black w-2/12'>Pages</th>
                             <th className='border-2 border-black px-0 md:px-4 w-1/12 md:w-3/12' >Download Link</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td className='border-2 border-black px-4 text-xl py-2.5'>
+                                Preface
+                            </td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center text-lg'>ix-xiii</td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={preface} target='_blank' rel='noreferrer'>Download</a></td>
+                        </tr>
+                        <tr>
+                            <td className='border-2 border-black px-4 text-xl py-2.5'>
+                                Foreword
+                            </td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center text-lg'>xv-xix</td>
+                            <td className='border-2 border-black px-0 md:px-4 text-center' ><a className='text-blue-700 text-lg hover:text-red-500 delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700' href={foreword} target='_blank' rel='noreferrer'>Download</a></td>
+                        </tr>
                         <tr>
                             <td className='border-2 border-black px-4 text-xl'>Chapter-1<br/>
                                 Higher Education and Research in India<br/>

@@ -1,13 +1,10 @@
 
 export default function NavBar() {
     return (
-        <div className='fixed w-full bg-white'>
-            <div className='w-full flex py-5 justify-between border-2 h-full border-b-gray-700 '>
-                <div className='w-9/12'>
-
-                </div>
-                <div className='w-auto text-xl flex justify-end items-center px-10 min-w-fit font-sans font-medium'>
-                    About Author
+        <div className='fixed w-full bg-[#65439a]'>
+            <div className='w-full flex py-5 justify-between h-full'>
+                <div className='w-full text-xl flex justify-start items-center tracking-wide px-10 min-w-fit font-GoHt text-white'>
+                    BUILDING RESEARCH UNIVERSITIES IN INDIA
                 </div>
             </div>
         </div>

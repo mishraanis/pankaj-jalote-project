@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+          GoHt: ["GoudyHandtooled"],
+        }
+    },
     screens: {
       'xs': '320px',
         'sm': '640px',

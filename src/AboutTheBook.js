@@ -1,29 +1,23 @@
 import frontPage from "./images_and_pdfs/BookFront.jpg";
-
+import backPage from "./images_and_pdfs/BookBack.jpg";
+import fullBook from "./images_and_pdfs/full_book.pdf";
 export default function AboutTheBook() {
     return (
-        <div id="about-the-book" className=' flex flex-col md:flex-row w-full pt-40 lg:pt-14 3xl:pt-10'>
-            <div className='w-full md:w-[50%] md:w-5/12 flex items-center px-10 md:px-0 md:ml-10 lg:ml-20'>
-                <img src={frontPage} className=' w-[100%] lg:w-[87%]' alt='book-front-cover'/>
-            </div>
-            <div className='w-full md:w-7/12 flex justify-center flex-col items-center pt-20 md:pt-0'>
-                <h1 className=' text-3xl 3xl:text-4xl font-bold w-full text-center pb-2'>About the Book</h1>
-                <div className='flex flex-col w-full items-center justify-center text-center text-base md:text-left sm:text-lg xl:text-lg px-8 sm:px-14 md:px-10 3xl:px-24'>
-                    <p>
-                        With the emergence of global university rankings, there is increased interest in research universities.
-                        The focus of the higher education system in India has traditionally been on educating students and not on research.
-                        However, in the last decade or so, there has been a growing appreciation of research in universities and interest in
-                        transforming some of the Indian universities to globally competitive research universities.
-                    </p>
-                    <p>
-                        This is the first book that focuses on building research universities in India.
-                        It provides a comprehensive and holistic view of a research university and discusses the key dimensions of
-                        such a university, including education, research, PhD programme, faculty management, governance, financing and
-                        third mission. This book will be of interest to academicians, academic leaders, policymakers, and those who are
-                        involved in developing a university in India.
-                    </p>
+        <div id="about-the-book" className='flex flex-col w-full items-center'>
+            <div className=' flex flex-col items-center md:flex-row w-full pt-40 lg:pt-20 3xl:pt-10'>
+                <div className='w-8/12 md:w-1/2 pb-6 md:pb-0 flex items-center md:px-0 md:ml-10 lg:ml-20'>
+                    <img src={frontPage} className=' w-[100%] md:w-[87%] border-[0.1rem] border-neutral-900' alt='book-front-cover'/>
+                </div>
+                <div className='w-8/12 md:w-1/2 flex items-center md:px-0'>
+                    <img src={backPage} className=' w-[100%] md:w-[87%] border-[0.1rem] border-neutral-900' alt='book-back-cover'/>
                 </div>
             </div>
+            <p className='w-8/12 md:w-[87%] text-lg md:text-xl font-sans pt-24 font-semibold'>
+                This book is being made publicly available by the author with permission from the publisher (SAGE).
+            </p>
+            <p className='w-8/12 md:w-[87%] text-lg md:text-xl font-sans pt-5 font-semibold'>
+                For downloading the full book, <a href={fullBook} target='_blank' rel='noreferrer' className='text-blue-700 text-lg md:hover:text-red-500 md:delay-75 transition-all active:underline active:underline-offset-2 active:text-red-700 focus:text-red-700'>click here</a>. For downloading specific chapters, links are provided in the table below.
+            </p>
         </div>
     )
 }
