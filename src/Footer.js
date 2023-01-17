@@ -6,7 +6,7 @@ export default function Footer() {
                 <div className='w-9/12 hidden md:block'>
 
                 </div>
-                <div className='w-auto text-xl flex justify-end items-center px-10'>
+                <div className='w-auto text-xl flex justify-end items-center px-10 min-w-fit font-medium'>
                     Copyright and Terms
                 </div>
             </div>

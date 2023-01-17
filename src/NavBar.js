@@ -6,7 +6,7 @@ export default function NavBar() {
                 <div className='w-9/12'>
 
                 </div>
-                <div className='w-auto text-xl flex justify-end items-center px-10'>
+                <div className='w-auto text-xl flex justify-end items-center px-10 min-w-fit font-sans font-medium'>
                     About Author
                 </div>
             </div>
