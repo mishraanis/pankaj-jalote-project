@@ -1,4 +1,3 @@
-import authorImage from './images_and_pdfs/PankajJalote.jpg';
 export default function AboutTheAuthor() {
     return(
         <div className='w-full flex flex-col justify-center items-center py-20'>
