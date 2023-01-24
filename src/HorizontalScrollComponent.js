@@ -2,7 +2,7 @@ import './App.css';
 
 export default function HorizontalScrollComponent(){
     return(
-        <div className="bg-white w-[100%] grid grid-cols-3 3xl:grid-cols-4">
+        <div className="bg-white w-[100%] grid grid-cols-1 md:grid-cols-3 3xl:grid-cols-4">
             <div className="text-base flex rounded-xl flex-col justify-evenly font-sans font-normal bg-[#65439a] text-white mx-4 my-4">
                 <p className='px-5 py-2'>A nation is as strong as its higher educational and research institutions.
                 Professor Jalote has created one such institution and nurtured
