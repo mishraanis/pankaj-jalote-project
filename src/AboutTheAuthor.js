@@ -4,7 +4,7 @@ export default function AboutTheAuthor() {
         <div className='w-full flex flex-col justify-center items-center py-20'>
             <h1 className='font-sans font-bold text-center text-3xl py-3 md:pt-5 md:pb-2'>About the Author</h1>
             <div className='w-full flex justify-evenly 3xl:w-10/12 items-center font-sans font-semibold'>
-                <img src={PankajJalote} className='rounded-[3rem] w-2/12'/>
+                <img src={PankajJalote} alt='pankaj_jalote_image' className='rounded-[3rem] w-2/12'/>
                 <div className='w-9/12 md:w-7/12 text-base md:text-lg 3xl:text-xl'>
                     <span className='text-2xl text-violet-800'>Pankaj Jalote</span> was the founding Director of IIIT-Delhi (from 2008 to 2018),
                     which is now a highly-respected institution globally with high quality research and education, and has been ranked in BRICS
